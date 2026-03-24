@@ -14,5 +14,12 @@ public class room {
     public void enter(){
         
     }
+    public room(int n){
+        this.roomno = n;
+    }
+
+    public int getRoomno() {
+        return roomno;
+    }
     
 }
